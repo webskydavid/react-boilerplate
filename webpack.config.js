@@ -40,14 +40,13 @@ module.exports = {
   ],
 
   devServer: {
-    publicPath: '/',
     port: 9000,
     contentBase: path.join(process.cwd(), 'dist'),
-    host: 'localhost',
     historyApiFallback: true,
     noInfo: false,
     stats: 'minimal',
     hot: true,
     open: true,
+    clientLogLevel: 'info',
   },
 };
