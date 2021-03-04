@@ -3,7 +3,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  devtool: 'eval-cheap-source-map',
+  devtool: 'eval-cheap-module-source-map',
 
   entry: path.resolve(__dirname, './src/index.js'),
 
